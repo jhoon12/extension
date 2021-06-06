@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+
+  "description": "A plain text description",
+
+  "browser_action": {
+    "default_icon": {
+      "32": "logo192.png"
+    },
+    "default_title": "React Test",
+    "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-YNIS...생략'; object-src 'self'
+}
